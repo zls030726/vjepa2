@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from timm.models.layers import drop_path
+from timm.layers import drop_path
 
 
 def rotate_queries_or_keys(x, pos, n_registers, has_cls_first):
